@@ -1,2 +1,0 @@
-gcc -c testlib.c
-gcc -shared -o TestlibDll.dll -Wl,--out-implib,libtstdll.a testlib.o
