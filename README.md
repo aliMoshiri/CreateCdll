@@ -9,3 +9,4 @@ notice than main.c is the file that contains your code not your header file
 then for generate dll file you can also you this command
 gcc -shared -o TestDll.dll -Wl,--out-implib,libtstdll.a main.o
 then your dll will be generated and you can use it in your application
+in your python file you can use  cdll that located in ctypes  for use generated Dll
